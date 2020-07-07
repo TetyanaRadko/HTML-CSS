@@ -1,0 +1,67 @@
+.content{
+    margin-top: 100px;
+    height: 100%;
+    display: grid;
+    grid-template :repeat(4, 2fr) / repeat(6, 1fr) ;
+	grid-template-areas:
+		"Binary"
+		"QA"
+        "JS"
+        "Java"
+        "php"
+        "NET"
+        "Events"
+        "Blog"
+		"Contacts";
+}
+
+.cardBinary {
+    grid-area: Binary;
+}
+
+.cardQA {
+    grid-area: QA;
+}
+
+.cardJS {
+    grid-area: JS;
+}
+
+.cardJava {
+    grid-area: Java;
+}
+
+.cardPhp { 
+    grid-area: php;
+}
+
+.cardNET {
+    grid-area: NET;
+}
+
+.cardEvents {
+    grid-area: Events;
+}
+
+.cardBlog {
+    grid-area: Blog;
+}
+
+.cardContacts {
+    grid-area: Cont;
+}
+
+
+@media (min-width: 240px) {
+	.content {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+		grid-template-areas:
+        "Binary JS php php"
+        "Binary JS NET Events"
+        "Binary JS NET Events"
+        "QA JS NET Blog"
+        "QA Java NET Blog"
+        "QA Java NET Cont";
+	}
+}

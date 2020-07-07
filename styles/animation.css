@@ -1,0 +1,145 @@
+
+
+#menuToggle a:hover{
+    color:white;
+    opacity: 1;
+}
+
+.icon-bell-o:hover {
+cursor: pointer;
+opacity: .5;
+}
+
+.header:hover {
+    transform: translateY(0);
+
+}
+
+.cardBinary:hover {
+    background-color: #ffffff;
+    transform: rotate(360deg);
+}
+.join-btn:hover {
+    opacity: 1;
+}
+
+
+.cardJava:hover {
+    background-color: #ffffff;
+    transform: rotate(360deg);
+
+}  
+
+.textJava:hover {
+    opacity: 1;
+    color: black;
+    cursor: text;
+}
+
+
+.cardPhp:hover {
+    background-color: #ffffff;
+    transform: none;
+    color: #ffffff;
+}  
+
+.textPhp:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+.cardJS:hover {
+    background-color: #ffffff;
+    transform: rotate(360deg);
+    color: #ffffff;
+}
+
+.textJS:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+.cardQA:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+    animation-name: forQA;
+    animation-duration: 2s;
+}
+@keyframes forQA {
+    from {background-color: #359f39;}
+    to {background-color: aliceblue;}
+}
+
+.textQA:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+
+.cardNET:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}  
+
+.textNET:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+
+
+.cardEvents:hover {
+    background-color: #ffffff;
+    transform: none;
+    color: #ffffff;
+    
+}  
+
+.textEvents:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+.cardBlog:hover {
+    background-color: #ffffff;
+    transform: none;
+    color: #ffffff;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: stretch;
+
+}  
+
+@keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color:#0055ff;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: orange;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: yellow;
+    }
+  }
+
+.textBlog:hover {
+    opacity: 1;
+}
+
+.cardContacts:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.icons:hover {
+    opacity: 1;
+}
+
